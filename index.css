@@ -1,0 +1,188 @@
+
+body {
+    margin :0;
+}
+
+table {
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.align_middle {
+    text-align: center;
+}
+
+.select_container select {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.filter {
+    margin: 5px auto;
+    background: #4caf50;
+    padding: 10px 0;
+    color: white;
+    font-weight: bolder;
+    width: 50%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #111;
+}
+
+.screen {
+    margin: 50px 0;
+}
+
+button.btn-primary {
+    background: #419e45;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+button.btn-primary:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.toggle_btn .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle_btn .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle_btn .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle_btn .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggle_btn input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.toggle_btn input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.toggle_btn input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  /* Rounded sliders */
+.toggle_btn .slider.round {
+    border-radius: 34px;
+}
+
+.toggle_btn .slider.round:before {
+    border-radius: 50%;
+}
+
+.toggle_btn {
+    position: fixed;
+    right: 10px;
+    top: 6px;
+}
+
+.toggle_label {
+    display: inline;
+    position: relative;
+    top: 8px;
+    right: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.badge {
+    padding: 2px;
+    color: #3b841c;
+    cursor: pointer;
+}
+
+.badge:hover {
+    background: #3b841c36;
+}
+
+input[type="checkbox"],select {
+    cursor: pointer;
+}
