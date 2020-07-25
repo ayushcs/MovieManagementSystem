@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/MovieManagementSystem/static/js/main.318be43e.chunk.js",
-    "main.js.map": "/MovieManagementSystem/static/js/main.318be43e.chunk.js.map",
+    "main.js": "/MovieManagementSystem/static/js/main.a6a87ce9.chunk.js",
+    "main.js.map": "/MovieManagementSystem/static/js/main.a6a87ce9.chunk.js.map",
     "runtime-main.js": "/MovieManagementSystem/static/js/runtime-main.b01db43d.js",
     "runtime-main.js.map": "/MovieManagementSystem/static/js/runtime-main.b01db43d.js.map",
     "static/js/2.2349fee3.chunk.js": "/MovieManagementSystem/static/js/2.2349fee3.chunk.js",
     "static/js/2.2349fee3.chunk.js.map": "/MovieManagementSystem/static/js/2.2349fee3.chunk.js.map",
     "index.html": "/MovieManagementSystem/index.html",
-    "precache-manifest.0e85029caba2d1425a36153fd1bfaf08.js": "/MovieManagementSystem/precache-manifest.0e85029caba2d1425a36153fd1bfaf08.js",
+    "precache-manifest.bfe41a9bb64ae6d81650c2f3a3f604d7.js": "/MovieManagementSystem/precache-manifest.bfe41a9bb64ae6d81650c2f3a3f604d7.js",
     "service-worker.js": "/MovieManagementSystem/service-worker.js",
     "static/js/2.2349fee3.chunk.js.LICENSE.txt": "/MovieManagementSystem/static/js/2.2349fee3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b01db43d.js",
     "static/js/2.2349fee3.chunk.js",
-    "static/js/main.318be43e.chunk.js"
+    "static/js/main.a6a87ce9.chunk.js"
   ]
 }
